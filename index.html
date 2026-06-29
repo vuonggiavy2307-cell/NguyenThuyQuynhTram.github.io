@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thụy Quỳnh Trâm - Portfolio</title>
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.475.0/dist/umd/lucide.min.js"></script>
+</head>
+<body class="bg-[#fafbff] text-slate-800 font-sans antialiased selection:bg-purple-500 selection:text-white">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-purple-100 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Nguyễn Thụy Quỳnh Trâm</a>
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#about" class="hover:text-purple-600 transition">Giới thiệu</a>
+                <a href="#skills" class="hover:text-purple-600 transition">Kỹ năng</a>
+                <a href="#projects" class="hover:text-purple-600 transition">Dự án</a>
+                <a href="#contact" class="hover:text-purple-600 transition">Liên hệ</a>
+            </div>
+            <a href="#contact" class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-sm transition">Tuyển dụng tôi</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-32 px-4 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6 text-center md:text-left">
+            <div class="inline-flex items-center gap-2 bg-emerald-50 font-medium text-emerald-700 px-3 py-1 rounded-full text-sm">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Sẵn sàng nhận việc / Thực tập
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
+                Xin chào, tôi là <br class="hidden md:block">
+                <span class="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Nguyễn Thụy Quỳnh Trâm</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 max-w-2xl leading-relaxed">
+                Sinh viên ngành <strong>Quản trị Kinh doanh</strong> tại UMT. Định hướng phát triển nội dung sáng tạo <strong>(Content Creator)</strong>, kết hợp tư duy phân tích thị trường và năng lực quản lý truyền thông số.
+            </p>
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
+                <a href="#projects" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-medium shadow-md transition flex items-center gap-2">
+                    <i data-lucide="image" class="w-4 h-4"></i> Xem dự án
+                </a>
+                <a href="#contact" class="border border-purple-200 hover:bg-purple-50 text-purple-700 bg-white px-6 py-3 rounded-xl font-medium transition flex items-center gap-2 shadow-sm">
+                    <i data-lucide="phone" class="w-4 h-4"></i> Liên hệ ngay
+                </a>
+            </div>
+        </div>
+        
+        <!-- Khung ảnh đại diện hiển thị file ảnh mới của bạn -->
+        <div class="w-64 h-80 md:w-80 md:h-[420px] relative flex-shrink-0">
+            <div class="absolute inset-0 bg-purple-600 rounded-3xl rotate-3 opacity-10 blur-xl"></div>
+            <img src="z7990057766053_fcb9ec357f3808fa7e49a165ac84d63d.jpg" alt="Nguyễn Thụy Quỳnh Trâm" class="w-full h-full object-cover rounded-2xl border-4 border-white shadow-xl relative z-10" />
+        </div>
+    </section>
+
+    <!-- EDUCATION & EXPERIENCE SECTION -->
+    <section id="about" class="py-20 bg-white border-y border-purple-50 px-4">
+        <div class="max-w-5xl mx-auto space-y-12">
+            <div class="text-left space-y-2">
+                <h2 class="text-3xl font-bold text-slate-900">Về tôi</h2>
+                <div class="w-12 h-1 bg-purple-600 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+                <!-- Học vấn -->
+                <div class="bg-[#fafbff] p-6 rounded-2xl border border-purple-100/80 space-y-4 shadow-sm">
+                    <div class="flex items-center gap-3 text-purple-600">
+                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        <h3 class="text-xl font-bold text-slate-900">Học vấn Chính Quy</h3>
+                    </div>
+                    <div class="space-y-2 border-l-2 border-purple-600 pl-4">
+                        <p class="font-bold text-slate-900 text-base">Trường Đại học Quản lý và Công nghệ TP.HCM (UMT)</p>
+                        <p class="text-purple-600 font-medium text-sm">Niên khóa 2025-2029</p>
+                        <p class="text-slate-700 text-sm font-medium">Chuyên ngành: Quản trị Kinh doanh</p>
+                        <p class="text-slate-600 text-sm">Điểm trung bình tích lũy: <strong>GPA 7.5</strong></p>
+                    </div>
+                </div>
+
+                <!-- Hoạt động ngoại khóa -->
+                <div class="bg-[#fafbff] p-6 rounded-2xl border border-purple-100/80 space-y-4 shadow-sm">
+                    <div class="flex items-center gap-3 text-indigo-600">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                        <h3 class="text-xl font-bold text-slate-900">Hoạt Động Ngoại Khóa</h3>
+                    </div>
+                    <div class="space-y-2 border-l-2 border-indigo-600 pl-4">
+                        <p class="font-bold text-slate-900 text-base">Chủ tịch CLB Content Creator UMT</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Quản lý và định hướng sáng tạo nội dung truyền thông giải trí, bắt kịp các xu hướng mới cho các nền tảng mạng xã hội của CLB. Rèn luyện năng lực lãnh đạo, làm việc độc lập và đổi mới tư duy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-20 px-4 max-w-6xl mx-auto space-y-12">
+        <div class="text-left space-y-2">
+            <h2 class="text-3xl font-bold text-slate-900">Kỹ năng</h2>
+            <div class="w-12 h-1 bg-purple-600 rounded-full"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Sáng tạo Nội dung -->
+            <div class="bg-white p-6 rounded-2xl border border-purple-100/50 shadow-sm space-y-4">
+                <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center">
+                    <i data-lucide="video" class="w-5 h-5"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Sáng Tạo Nội Dung & Quản lý Xã Hội</h3>
+                <ul class="space-y-2 text-slate-600 text-sm list-disc pl-4">
+                    <li>Lên kế hoạch và định hướng nội dung đa nền tảng</li>
+                    <li>Nghiên cứu thị trường và viết kịch bản chi tiết</li>
+                    <li>Chỉnh sửa video ngắn/dài chuyên nghiệp (Adobe Premiere, CapCut)</li>
+                    <li>Vận hành, phát triển Fanpage, Instagram, TikTok</li>
+                </ul>
+            </div>
+            <!-- Ngoại ngữ -->
+            <div class="bg-white p-6 rounded-2xl border border-purple-100/50 shadow-sm space-y-4">
+                <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                    <i data-lucide="languages" class="w-5 h-5"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Tiếng Anh & Thương Mại</h3>
+                <div class="text-xs font-semibold text-indigo-700 bg-indigo-50 inline-block px-2.5 py-1 rounded-md mb-1">
+                    Chứng chỉ: IELTS 6.0
+                </div>
+                <ul class="space-y-2 text-slate-600 text-sm list-disc pl-4">
+                    <li>Đọc hiểu chuyên sâu tài liệu Marketing, truyền thông tiếng Anh</li>
+                    <li><strong>Kinh doanh số:</strong> Thành thạo các biểu mẫu hợp đồng dịch vụ sáng tạo nội dung, thỏa thuận hợp tác thương mại (KOLs/Brands).</li>
+                    <li>Phân tích, đánh giá báo cáo hiệu quả chiến dịch quảng cáo</li>
+                </ul>
+            </div>
+            <!-- Kỹ năng mềm -->
+            <div class="bg-white p-6 rounded-2xl border border-purple-100/50 shadow-sm space-y-4">
+                <div class="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center">
+                    <i data-lucide="smile" class="w-5 h-5"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Kỹ năng thế mạnh</h3>
+                <ul class="space-y-2 text-slate-600 text-sm list-disc pl-4">
+                    <li><strong>Phân tích xu hướng (Trend-catching)</strong> nhạy bén</li>
+                    <li><strong>Làm việc nhóm (Teamwork)</strong> hiệu quả</li>
+                    <li><strong>Quản lý dự án nội dung</strong> và phân bổ thời gian tối ưu</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-white border-t border-purple-50 px-4">
+        <div class="max-w-6xl mx-auto space-y-12">
+            <div class="text-left space-y-2">
+                <h2 class="text-3xl font-bold text-slate-900">Dự án</h2>
+                <div class="w-12 h-1 bg-purple-600 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Dự án 1 -->
+                <div class="group bg-[#fafbff] rounded-2xl overflow-hidden border border-purple-100/60 hover:shadow-md transition">
+                    <div class="h-52 bg-slate-200 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=600" alt="Project 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold text-slate-900">Chiến Dịch Marketing Tiktok Tăng Tác</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Mô hình hóa chiến dịch tiếp thị video ngắn trên nền tảng TikTok. Tối ưu hóa thuật toán giữ chân người xem thông qua kịch bản phân cảnh độc đáo, giúp tăng đột biến lượt theo dõi tự nhiên và tương tác thương hiệu.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium pt-2">
+                            <span class="bg-purple-50 text-purple-700 px-2.5 py-1 rounded-md">TikTok Ads</span>
+                            <span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md">Canva</span>
+                            <span class="bg-violet-50 text-violet-700 px-2.5 py-1 rounded-md">CapCut</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 2 -->
+                <div class="group bg-[#fafbff] rounded-2xl overflow-hidden border border-purple-100/60 hover:shadow-md transition">
+                    <div class="h-52 bg-slate-200 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold text-slate-900">Hệ Thống Phân Tích Nội Dung Web</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Thiết lập hệ thống Dashboard theo dõi hiệu suất nội dung số đa nền tảng. Sử dụng dữ liệu định lượng để điều chỉnh cách viết từ khóa SEO, tối ưu tỷ lệ chuyển đổi hành vi của độc giả trên website.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium pt-2">
+                            <span class="bg-purple-50 text-purple-700 px-2.5 py-1 rounded-md">Google Analytics</span>
+                            <span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md">Python</span>
+                            <span class="bg-violet-50 text-violet-700 px-2.5 py-1 rounded-md">Tableau</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 px-4 max-w-5xl mx-auto space-y-12">
+        <div class="text-left space-y-2">
+            <h2 class="text-3xl font-bold text-slate-900">Liên hệ</h2>
+            <div class="w-12 h-1 bg-purple-600 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <!-- Thông tin nhanh -->
+            <div class="space-y-6 bg-white p-8 rounded-2xl border border-purple-100 shadow-sm">
+                <h3 class="text-xl font-bold text-slate-900 mb-4">Quick info</h3>
+                <div class="space-y-4 text-slate-600">
+                    <!-- Email -->
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 flex-shrink-0">
+                            <i data-lucide="mail" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">Email</p>
+                            <a href="mailto:nguyenthuyquynhtram019@gmail.com" class="hover:text-purple-600 transition font-medium text-sm md:text-base">nguyenthuyquynhtram019@gmail.com</a>
+                        </div>
+                    </div>
+                    <!-- Điện thoại -->
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 flex-shrink-0">
+                            <i data-lucide="phone" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">Phone</p>
+                            <a href="tel:0793676769" class="hover:text-purple-600 transition font-medium text-sm md:text-base">0793 676 769</a>
+                        </div>
+                    </div>
+                    <!-- Địa chỉ -->
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 flex-shrink-0">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">Address</p>
+                            <span class="font-medium text-sm md:text-base text-slate-800">TP. Hồ Chí Minh</span>
+                        </div>
+                    </div>
+                    <!-- LinkedIn -->
+                    <div class="flex items-center gap-4 pt-2 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 flex-shrink-0">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">LinkedIn</p>
+                            <a href="#" class="text-purple-600 font-bold hover:underline text-sm flex items-center gap-1">
+                                LinkedIn Profile <i data-lucide="external-link" class="w-3 h-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form liên hệ -->
+            <form class="bg-white p-8 rounded-2xl border border-purple-100 shadow-sm space-y-4" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã gửi lời nhắn!');">
+                <div>
+                    <input type="text" placeholder="Email" class="w-full px-4 py-3 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-purple-600 bg-slate-50/50" required />
+                </div>
+                <div>
+                    <input type="text" placeholder="Phone" class="w-full px-4 py-3 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-purple-600 bg-slate-50/50" required />
+                </div>
+                <div>
+                    <textarea rows="4" placeholder="Liên hệ" class="w-full px-4 py-3 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-purple-600 bg-slate-50/50 resize-none" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 rounded-xl text-sm shadow-sm transition">
+                    Gửi lời nhắn
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm">
+        <p>&copy; 2026 Nguyễn Thụy Quỳnh Trâm. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <!-- Script kích hoạt Lucide icon tự động -->
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+</html>
